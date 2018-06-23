@@ -33,6 +33,7 @@ const LandingPage = () => {
     <LandingPageContainer>
 
       <IntroSection>
+        
         This will be the landing page.
       </IntroSection>
 
