@@ -1,5 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
+
 
 const LandingPageContainer = styled.div`
   width: 100vw;
@@ -37,13 +39,17 @@ const LandingPage = () => {
         This will be the landing page.
       </IntroSection>
 
+    <Link to="/add-new">
       <SignUpButton>
         Sign Up
       </SignUpButton>
+    </Link>
 
+    <Link to="/add-new">
       <LoginButton>
         Login
       </LoginButton>
+    </Link>
 
     </LandingPageContainer>
   );
