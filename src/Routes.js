@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import LandingPage from './LandingPage';
 import AllConnections from './AllConnections';
-import AddNew from './AddNew';
+import Form from './Form/Form/index';
 import NextSteps from './NextSteps';
 import Connection from './Connection';
 
@@ -12,7 +12,7 @@ const Routes = () => (
     <Switch>
       <Route exact path="/" component={LandingPage} />
       <Route exact path="/all-connections" component={AllConnections} />
-      <Route exact path="/add-new" component={AddNew} />
+      <Route exact path="/add-new" component={Form} />
       <Route exact path="/next-steps" component={NextSteps} />
       <Route exact path="/connection" component={Connection} />
     </Switch>

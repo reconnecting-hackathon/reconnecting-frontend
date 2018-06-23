@@ -2,14 +2,13 @@ import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
-
 const LandingPageContainer = styled.div`
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-content: center;
+  // width: 100vw;
+  // height: 100vh;
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: space-around;
+  // align-content: center;
 `;
 
 const IntroSection = styled.div`
@@ -17,17 +16,17 @@ const IntroSection = styled.div`
 `;
 
 const SignUpButton = styled.button`
-  width: 100px;
-  height: 25px;
-  background-color: blue;
-  color: white;
+  // width: 100px;
+  // height: 25px;
+  // background-color: blue;
+  // color: white;
 `;
 
 const LoginButton = styled.button `
-  width: 100px;
-  height: 25px;
-  background-color: white;
-  color: blue;
+  // width: 100px;
+  // height: 25px;
+  // background-color: white;
+  // color: blue;
 `;
 
 const LandingPage = () => {
@@ -35,8 +34,7 @@ const LandingPage = () => {
     <LandingPageContainer>
 
       <IntroSection>
-        
-        This will be the landing page.
+        Reconnect with old friends and strengthen exisiting relationships with Reconnecting App!
       </IntroSection>
 
     <Link to="/add-new">
